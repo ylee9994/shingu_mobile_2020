@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/walking1"
+>
+
+    <Button
+        android:id="@+id/sbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:text="홈페이지가기 버튼입니다"
+        android:textColor="#9C27B0" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/sbutton2"
+        android:text="전화걸기 버튼입니다"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/sbutton3"
+        android:text="갤러리보기  버튼입니다"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/sbutton4"
+        android:text="끝내기 버튼입니다"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/sbutton5"
+        android:text="이용희 버튼입니다"
+        />
+
+</LinearLayout>

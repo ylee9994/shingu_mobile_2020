@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/01hello" />
+            <option value="$PROJECT_DIR$/02fhello" />
+            <option value="$PROJECT_DIR$/03button" />
+            <option value="$PROJECT_DIR$/041attributes" />
+            <option value="$PROJECT_DIR$/042calculator" />
+            <option value="$PROJECT_DIR$/051compoundb" />
+            <option value="$PROJECT_DIR$/052petimage" />
+            <option value="$PROJECT_DIR$/061layout" />
+            <option value="$PROJECT_DIR$/062acalculator" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

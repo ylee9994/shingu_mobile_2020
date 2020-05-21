@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="5"
+    android:rowCount="9"
+    tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/Edit1"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:hint="숫자1입력" />
+
+
+
+        <EditText
+            android:id="@+id/Edit2"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:hint="숫자2입력" />
+
+
+
+        <Button
+            android:id="@+id/Btn0"
+            android:text="0" />
+        <Button
+            android:id="@+id/Btn1"
+            android:text="1" />
+        <Button
+            android:id="@+id/Btn2"
+            android:text="2" />
+        <Button
+            android:id="@+id/Btn3"
+            android:text="3" />
+        <Button
+            android:id="@+id/Btn4"
+            android:text="4" />
+
+
+
+        <Button
+            android:id="@+id/Btn5"
+            android:text="5" />
+        <Button
+            android:id="@+id/Btn6"
+            android:text="6" />
+        <Button
+            android:id="@+id/Btn7"
+            android:text="7" />
+        <Button
+            android:id="@+id/Btn8"
+            android:text="8" />
+        <Button
+            android:id="@+id/Btn9"
+            android:text="9" />
+
+
+
+        <Button
+            android:id="@+id/BtnAdd"
+            android:text="더하기"
+            android:layout_columnSpan="5"
+            android:layout_rowSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/BtnSub"
+            android:text="빼기"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="5dp" />
+
+
+
+        <Button
+            android:id="@+id/BtnMul"
+            android:text="곱하기"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/BtnDiv"
+            android:text="나누기"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="5dp"
+            />
+
+
+        <TextView
+            android:id="@+id/Tresult"
+            android:text="계산결과과"
+            android:textColor="#ff0000"
+            android:textSize="30dp"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="5dp"  />
+
+
+</GridLayout>
