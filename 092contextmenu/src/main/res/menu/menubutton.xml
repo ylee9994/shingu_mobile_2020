@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/subRotate"
+        android:title="버튼 45도회전" ></item>
+    <item
+        android:id="@+id/subSize"
+        android:title="버튼 2배확대" ></item>
+</menu>
