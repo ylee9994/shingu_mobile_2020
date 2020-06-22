@@ -40,14 +40,28 @@ public class MainActivity extends AppCompatActivity {
                             Toast.LENGTH_LONG).show();
                 }
             });
+            image[i].setOnLongClickListener(new View.OnLongClickListener() {
+                @Override
+                public boolean onLongClick(View v) {
+                    int currentpic = index;
+                    Intent intent = new Intent(getApplicationContext(),
+                            OnePicture.class);
+                    intent.putExtra("CurrentPictureNum", currentpic);
+                    intent.putExtra("ImageName", imgName[currentpic]);
+                    startActivity(intent);
+                    return true;
+                }
+            });
         }
 
         Button button = findViewById(R.id.btnResult);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+//                Intent intent = new Intent(getApplicationContext(),
+//                        ResultActivity.class);
                 Intent intent = new Intent(getApplicationContext(),
-                        ResultActivity.class);
+                        ResultPictureActivity.class);
                 intent.putExtra("VoteCount", voteCount);
                 intent.putExtra("ImageNames", imgName);
 

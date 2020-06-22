@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ResultActivity" />
+        <activity android:name=".ResultPictureActivity" />
+        <activity android:name=".ViewFlip" />
+        <activity android:name=".OnePicture" />
     </application>
 
 </manifest>
