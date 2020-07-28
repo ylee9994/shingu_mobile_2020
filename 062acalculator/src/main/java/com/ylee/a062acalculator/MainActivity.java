@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grid);
         setTitle("나아진계산기 - 그리드레이아웃 이용희");
+        setTitle("바뀐계산기");
 
         editText1 = findViewById(R.id.Edit1);
         editText2 = findViewById(R.id.Edit2);
