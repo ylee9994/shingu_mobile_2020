@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grid);
-//        setTitle("나아진계산기 - 그리드레이아웃 이용희");
-        setTitle("나아진계산기 - 그리드레이아웃 이재선");
+        setTitle("나아진계산기 - 그리드레이아웃 이용희");
+
         editText1 = findViewById(R.id.Edit1);
         editText2 = findViewById(R.id.Edit2);
         buttonAdd = findViewById(R.id.BtnAdd);
